@@ -124,6 +124,10 @@ body{
 .r{
     height: 150px !important;
 }
+.t{
+    margin-top: 0 !important;
+    
+}
 }
 .cd{
     margin: 4px auto;
