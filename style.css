@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: b-nazanin;
+    src: url(./B_NAZANIN/B-NAZANIN.TTF);
+
+  }
+.n{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+.n:hover{
+    color: blue;
+    
+}
+.b{
+    width:3rem; 
+    height: 3rem; 
+    border-radius:50%;
+    background-image: url(./img/12.jpg);
+}
+body{
+    font-family: b-nazanin;
+    font-size: 20px !important;
+
+}
+.play{
+    margin-top: 8px;
+    margin-right: 8px;
+    transform: rotate(300deg);
+}
+.p{
+    margin-top: 10px;
+    margin-right: 8px;
+    
+}
+.location{
+    transform: rotate(1deg);
+    margin-left: 0px;
+    object-fit: cover;
+    
+}
+.Calendar{
+    transform: rotate(1deg);
+
+}
+.user{
+    transform: rotate(1deg);
+    
+}
+.icon{
+    transform: rotate(1deg);
+    margin-top:-2px;
+    
+}
+.x{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    border-radius: 15px;
+
+}
+
+
+.sp {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width:992px) {
+   .x{
+    transform: translatey(-130px);
+    padding: 3px;
+    width: 60%;
+    margin-right: 40px;
+    margin-top: auto;
+
+} 
+.form-select{
+    margin-top: 6px;
+}
+.cc{
+    height: 700px !important;
+}
+.bx{
+    height: 30% !important;
+    
+}
+.g{
+    margin-right: 0 !important;
+}
+.h{
+    margin-right: 0 !important;
+}
+.v{
+    height: 500px !important;
+}
+.r{
+    height: 150px !important;
+}
+}
+.cd{
+    margin: 4px auto;
+    justify-content: space-between;
+}
+.tx{
+    color: rgb(0, 128, 68);
+}
+.f{
+    filter: grayscale(100%);
+
+}
+.f:hover{
+    filter: grayscale(0%);
+    transition: all 0.5s;
+
+}
+.a{
+    border-radius: 20px !important;
+    
+}
